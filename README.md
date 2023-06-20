@@ -1,1 +1,1 @@
-# bored-app
+https://natasherbataya.github.io/bored-app/
