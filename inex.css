@@ -1,0 +1,59 @@
+body {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.wrapper {
+  height: 1225px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.2) 47.62%
+  );
+  background-repeat: no-repeat;
+}
+
+.wrapper_fun {
+  height: 1225px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 176, 28, 0.2) 24.48%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 115px;
+}
+
+.title {
+  margin-bottom: 66px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.description {
+  margin-bottom: 105px;
+  text-align: center;
+}
+
+.go_btn {
+  margin: 0 auto;
+  display: block;
+  width: 500px;
+  height: 60px;
+  font-size: 32px;
+  line-height: 60px;
+  color: #ffffff;
+  background: #0094ff;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+  cursor: pointer;
+}
