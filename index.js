@@ -8,7 +8,7 @@ const goBtnNode = document.querySelector('.js-go_btn');
 
 
 goBtnNode.addEventListener('click', function () {
-    fetch('http://www.boredapi.com/api/activity/')
+    fetch("http://www.boredapi.com/api/activity/")
         .then(function (response) {
             console.log(response.status);
             if (response.status !== 200) {
